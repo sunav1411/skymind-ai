@@ -3,10 +3,15 @@ frontend/dist/
 frontend/*.log
 frontend/*.err.log
 frontend/.env
+frontend/*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
 
 backend/.venv/
 backend/venv/
 backend/__pycache__/
+backend/routes/__pycache__/
+backend/**/*.pyc
 backend/*.log
 backend/*.err.log
 backend/.env
