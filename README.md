@@ -4,6 +4,23 @@ SkyMind AI is a fully integrated flight intelligence platform built as one conne
 
 Tagline: `Predict Smarter. Fly Better.`
 
+## Product preview
+
+### Dashboard overview
+![SkyMind AI dashboard overview](screenshots/dashboard-overview.png)
+
+### Prediction console
+![SkyMind AI prediction console](screenshots/predict-console.png)
+
+### Analytics dashboard
+![SkyMind AI analytics dashboard](screenshots/analytics-dashboard.png)
+
+### Flights manifest
+![SkyMind AI flights manifest](screenshots/flights-manifest.png)
+
+### Airport risk section
+![SkyMind AI airport risk cards](screenshots/dashboard-airports.png)
+
 ## What is included
 
 - Premium dark aerospace UI built with React, Vite, Tailwind CSS, Framer Motion, and Recharts
@@ -167,6 +184,6 @@ This version uses a synthetic but realistic airline operations dataset generated
 
 ## Supporting docs
 
-- [architecture.md](</C:/Users/9esun/OneDrive/Desktop/skymind ai/architecture.md>)
-- [setup-guide.md](</C:/Users/9esun/OneDrive/Desktop/skymind ai/setup-guide.md>)
-- [run_project.bat](</C:/Users/9esun/OneDrive/Desktop/skymind ai/run_project.bat>)
+- [architecture.md](architecture.md)
+- [setup-guide.md](setup-guide.md)
+- [run_project.bat](run_project.bat)
