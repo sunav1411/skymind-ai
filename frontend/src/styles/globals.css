@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sky-bg: #080c14;
+  --sky-surface: #0d1420;
+  --sky-border: #1a2535;
+  --sky-accent: #00d4ff;
+  --sky-accent2: #0066ff;
+  --sky-warning: #ff6b35;
+  --sky-danger: #ff2d55;
+  --sky-success: #00e676;
+  --sky-muted: #4a5568;
+  --sky-text: #e2e8f0;
+  --sky-text-dim: #718096;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "DM Sans", sans-serif;
+    background-color: var(--sky-bg);
+    color: var(--sky-text);
+    background-image:
+      linear-gradient(rgba(0, 212, 255, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 212, 255, 0.04) 1px, transparent 1px),
+      radial-gradient(circle at top, rgba(0, 102, 255, 0.16), transparent 32%);
+    background-size: 40px 40px, 40px 40px, auto;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+@layer components {
+  .sky-panel {
+    @apply rounded-3xl border border-[var(--sky-border)] bg-[var(--sky-surface)] shadow-panel;
+  }
+
+  .sky-text-glow {
+    text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+  }
+
+  .sky-subtitle {
+    @apply font-mono text-xs uppercase tracking-[0.3em] text-sky-dim;
+  }
+
+  .sky-grid {
+    @apply grid gap-6;
+  }
+}
